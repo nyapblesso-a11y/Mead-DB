@@ -1,0 +1,48 @@
+.title {
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.detials {
+  width: 100%;
+  max-width: 500px;
+  background: linear-gradient(135deg, #f5f5dc, #a1a196);
+  color: #fff;
+  margin: 6px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.image-title {
+  width: 400px;
+  margin: 1rem;
+}
+
+.image-title img {
+  height: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.image-title h1 {
+  font-size: 22px;
+  padding: 1rem;
+}
+
+.descriptions {
+  margin-top: 2rem;
+}
+
+.descriptions p {
+  line-height: 1.3rem;
+}
+
+.descriptions a {
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  
+  
+}
+ 

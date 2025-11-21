@@ -63,7 +63,7 @@ margin-left: 25%;
 .searchbox input {
     font-size: 20px;
     font-family:  "Bona Nova", serif;
-    /* padding: 1rem; */
+    padding: 1rem;
     border: none;
     background-color: #ccccbf;
     border-radius: 40px;
