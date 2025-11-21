@@ -27,7 +27,7 @@ const SearchItemsList = () => {
       {data.meals != null ? (
         <>
           <div className="head">
-            <h1>Meals in the category</h1>
+            <h1>Meals {name} in the category</h1>
             <div className="searchbox">
           <form onSubmit={submitForm} className="search-bar">
             <input
