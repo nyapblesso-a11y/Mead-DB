@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Categories from "../CategoryLIstingPage/Categories";
+import Categories from "../../CategoryLIstingPage/CategoryListingPage";
 import { useNavigate } from "react-router";
+import CategoryLIstingPage from "../../CategoryLIstingPage/CategoryListingPage";
 
 const Searbar = () => {
   const [search, setSearch] = useState("");
@@ -33,7 +34,7 @@ const Searbar = () => {
             </button>
           </form>
         </div>
-        <Categories />
+      <CategoryLIstingPage/>
       </div>
     </>
   );

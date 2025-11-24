@@ -1,7 +1,7 @@
-import "./Components/Search.css";
+import "./Components/SearchBar/Search.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Category from "./CategoryPage/Category";
-import Searbar from "./Components/Searbar";
+import Searbar from "./Components/SearchBar/Searbar";
 import SearchItemsList from "./Components/SearchItemsList";
 import MealDetailPage from "./MealDetialPage/MealDetailPage";
 

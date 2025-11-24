@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 import { useParams } from 'react-router'
-import { getMealDetailById } from '../services'
+import { getMealDetailById } from '../Services/services'
 import './MealDetailPage.css'
 import React from 'react'
 

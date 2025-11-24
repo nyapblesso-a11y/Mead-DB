@@ -1,10 +1,10 @@
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getMealCategories, searchMealByName } from "../services";
-import "./Listing.css";
+import { getMealCategories, searchMealByName } from "../Services/services";
+import "./CategoryListingPage.css";
 import { useNavigate } from "react-router";
 
-const Categories = () => {
+const CategoryLIstingPage = () => {
   const navigate = useNavigate()
   const { data, error, isLoading } = useQuery({
     queryKey: ["categories"],
@@ -34,4 +34,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default CategoryLIstingPage;

@@ -1,8 +1,8 @@
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getMealCategory } from "../services";
+import { getMealCategory } from "../Services/services";
 import { useNavigate, useParams } from "react-router-dom";
-import "../Components/Search.css";
+import "../Components/SearchBar/Search.css";
 import { useState } from "react";
 
 const Category = () => {

@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { useNavigate, useParams } from "react-router";
-import { searchMealByName } from "../services";
+import { searchMealByName } from "../Services/services";
 import { useState } from "react";
 
 const SearchItemsList = () => {
