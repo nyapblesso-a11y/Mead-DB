@@ -1,4 +1,4 @@
-import Api from "./Api";
+import Api from "./api";
 
 export const getMealCategories = async () => {
   const resp = Api.get("categories.php");
