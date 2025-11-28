@@ -12,21 +12,14 @@ body {
   margin:0 auto;
   width: 80%;
   text-align: center;
+  align-items: center;
 
 }
 .searchbox {
-  display: flex;
-  flex-direction: row;
   align-self: center;
   width: 100%;
+  justify-content: center;
 }
-
-/* form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}  */
 
 button {
   display: flex;
@@ -36,13 +29,18 @@ button {
   padding: 1rem;
   border: none;
   border-radius: 20px; 
-  background-color: #e0e0da;
-  
+  background-color: #e0e0da; 
 }
 
 button:hover {
  background-color: #f5f5dc;
  transform: scale(1.1);
+}
+
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading h1 {

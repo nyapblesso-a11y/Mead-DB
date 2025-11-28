@@ -4,6 +4,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.header {
+  padding: 2rem;
+}
+
 .card-sec {
    display: grid;
    grid-template-columns: repeat(auto-fill, 1fr);

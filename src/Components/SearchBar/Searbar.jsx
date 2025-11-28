@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Categories from "../../CategoryLIstingPage/CategoryListingPage";
 import { useNavigate } from "react-router";
 import CategoryLIstingPage from "../../CategoryLIstingPage/CategoryListingPage";
 

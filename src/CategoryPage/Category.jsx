@@ -4,7 +4,6 @@ import { getMealCategory } from "../Services/services";
 import { useNavigate, useParams } from "react-router-dom";
 import "../Components/SearchBar/Search.css";
 import { useState } from "react";
-
 const Category = () => {
   const { category } = useParams();
   const navigate = useNavigate();
@@ -31,10 +30,11 @@ const Category = () => {
 
   return (
     <>
-    
-      <div className="heading">
-        <h1>Meal(s) in the {category} category</h1>
-           <div className="searchbox">
+      <div className="">
+        <div className="header">
+          <h1>Meal(s) in the {category} category</h1>
+        </div>
+        <div className="searchbox">
           <form onSubmit={submitForm} className="search-bar">
             <input
               type="text"
@@ -46,7 +46,7 @@ const Category = () => {
             />
 
             <button className="search-btn" type="submit">
-              Search 
+              Search
             </button>
           </form>
         </div>
